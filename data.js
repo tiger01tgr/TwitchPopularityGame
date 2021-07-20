@@ -1,6 +1,7 @@
 
 const URL = "https://tiger01tgr.github.io/TwitchPopularityGame/streamer_list.csv"
 
+
 window.addEventListener("load", loadFile);
 
 
