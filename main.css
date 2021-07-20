@@ -1,0 +1,74 @@
+body {
+    background-color: darkcyan;
+}
+
+h1, h2, #points, .name, #againBtn{
+    font-family: Merriweather;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 5.0rem;
+    margin-top: 2%;
+    margin-bottom: -1%;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0%;
+}
+
+#points {
+    font-size: 3rem;
+    width: 300px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.name {
+    font-size: 2rem;
+    margin-top: 0%;
+}
+
+.box1, .box2 {
+    opacity: 1;
+}
+
+.box1:hover, .box2:hover {
+    opacity: 50%;
+}
+.box1 {
+    margin-left: 25%;
+    float: left;
+}
+  
+.box2 {
+    margin-right: 25%;
+    float: right;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+#againBtn {
+    background-color: darkcyan;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    margin: 0 auto;
+    border-color: white;
+    font-size: 3.0rem;
+}
+
+#againBtn:hover {
+    opacity: 50%;
+}
