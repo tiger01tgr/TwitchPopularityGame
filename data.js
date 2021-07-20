@@ -1,5 +1,5 @@
 
-const filePath = "streamer_list.csv"
+const filePath = "/streamer_list.csv"
 
 window.addEventListener("load", loadFile);
 
