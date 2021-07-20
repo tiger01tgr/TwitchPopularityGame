@@ -1,6 +1,6 @@
 import {data} from "./data.js";
 
-const num = 3;
+const num = 200;
 
 var correctCount = 0;
 
