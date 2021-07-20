@@ -16,9 +16,12 @@ function loadStreamer(){
     console.log(s1);
     let s2 = Math.floor(Math.random() * num);
     console.log(s2);
+
     while(s2 == s1){
         s2 = Math.floor(Math.random() * num);
+        console.log('caught');
     }
+
     if(s1 < s2){
         winner = 1;
     }
