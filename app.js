@@ -8,14 +8,14 @@ var winner;
 
 window.addEventListener("load", loadStreamer);
 
-
-
 function loadStreamer(){
     document.getElementById("againBtn").style.display = "none";
     document.getElementById("points").innerHTML = "Score: " + correctCount;
 
     let s1 = Math.floor(Math.random() * num);
+    console.log(s1);
     let s2 = Math.floor(Math.random() * num);
+    console.log(s2);
     while(s2 == s1){
         s2 = Math.floor(Math.random() * num);
     }
