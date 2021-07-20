@@ -1,10 +1,10 @@
 
-const filePath = "/streamer_list.csv"
+const URL = "https://tiger01tgr.github.io/TwitchPopularityGame/streamer_list.csv"
 
 window.addEventListener("load", loadFile);
 
 
-function loadFile(filePath) {
+function loadFile(URL) {
     var result = null;
     var xmlhttp = new XMLHttpRequest();
 
@@ -12,16 +12,13 @@ function loadFile(filePath) {
         console.log(this.responseText);
     };
 
-    xmlhttp.open("GET", filePath, true);
+    xmlhttp.open("GET", URL, true);
     xmlhttp.send();
     if (xmlhttp.status==200) {
       result = xmlhttp.responseText;
     }
     return result;
 }
-
-
-
 
 
 
